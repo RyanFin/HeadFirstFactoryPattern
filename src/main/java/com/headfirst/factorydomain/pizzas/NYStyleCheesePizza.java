@@ -2,31 +2,22 @@ package com.headfirst.factorydomain.pizzas;
 
 import com.headfirst.factorydomain.Pizza;
 
+/**
+ * 
+ * @author ryanfin
+ *
+ * Concrete pizza implementation class
+ */
+
 public class NYStyleCheesePizza extends Pizza{
-
-	@Override
-	protected void prepare() {
-		// TODO Auto-generated method stub
+	
+	// create constructor
+	public NYStyleCheesePizza() {
+		name = "NY Style Sauce and Cheese Pizza";
+		dough = "Thin Crust Dough";
+		sauce = "Marianara Sauce";
 		
-	}
-
-	@Override
-	protected void bake() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	protected void cut() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	protected void box() {
-		// TODO Auto-generated method stub
-		
+		toppings.add("Grated Reggiano Cheese");
 	}
 	
-
 }

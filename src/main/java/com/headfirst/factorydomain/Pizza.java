@@ -1,13 +1,45 @@
 package com.headfirst.factorydomain;
 
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author ryanfin
+ *
+ * Product class produced by the factory 
+ */
+
 public abstract class Pizza {
+	
+	protected String name, dough, sauce;
+	
+	protected ArrayList<String> toppings = new ArrayList<String>();
 
-	protected abstract void prepare();
+	void prepare() {
+		System.out.println("Preparing " + name);
+		System.out.println("Tossing dough ...");
+		System.out.println("Adding sauce ...");
+		System.out.println("Adding toppings ...");
+		for(String topping : toppings) {
+			System.out.println("   " + topping);
+		}
+	}
 
-	protected abstract void bake();
+	void bake() {
+		System.out.println("Bake for 25 minutes at 350 degrees");
+	}
 
-	protected abstract void cut();
+	void cut() {
+		System.out.println("Cutting the pizza into diagonal slices");
+	}
 
-	protected abstract void box();
+	void box() {
+		System.out.println("Place pizza in official PizzaStore box");
+	}
 
+	// add getter method
+	public String getName() {
+		return this.name;
+	}
+	
 }

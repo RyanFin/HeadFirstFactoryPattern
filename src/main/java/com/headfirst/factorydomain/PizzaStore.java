@@ -1,5 +1,13 @@
 package com.headfirst.factorydomain;
 
+/**
+ * 
+ * @author ryanfin
+ * 
+ * Abstract creator class: never knows what the concrete implementation entails :)
+ *
+ */
+
 public abstract class PizzaStore {
 	
 	public Pizza orderPizza(String type) {

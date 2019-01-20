@@ -5,6 +5,13 @@ import com.headfirst.factorydomain.PizzaStore;
 import com.headfirst.factorydomain.pizzas.ChicagoStyleCheesePizza;
 import com.headfirst.factorydomain.pizzas.ChicagoStylePepperoniPizza;
 
+/**
+ * 
+ * @author ryanfin
+ * 
+ * Concrete Creator: Implements createPizza()
+ *
+ */
 
 public class ChicagoPizzaStore extends PizzaStore {
 

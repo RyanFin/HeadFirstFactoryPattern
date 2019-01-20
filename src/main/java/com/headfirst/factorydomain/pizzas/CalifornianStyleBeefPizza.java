@@ -2,30 +2,15 @@ package com.headfirst.factorydomain.pizzas;
 
 import com.headfirst.factorydomain.Pizza;
 
+/**
+ * 
+ * @author ryanfin
+ *
+ * Concrete pizza implementation class
+ */
+
 public class CalifornianStyleBeefPizza extends Pizza {
 
-	@Override
-	protected void prepare() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	protected void bake() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	protected void cut() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	protected void box() {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

@@ -1,9 +1,20 @@
+
 package com.headfirst.factorydomain.pizzastores;
 
 import com.headfirst.factorydomain.Pizza;
+
 import com.headfirst.factorydomain.PizzaStore;
 import com.headfirst.factorydomain.pizzas.NYStyleCheesePizza;
 import com.headfirst.factorydomain.pizzas.NYStyleVeggiePizza;
+
+
+/**
+ * 
+ * @author ryanfin
+ * 
+ * Concrete Creator: Implements createPizza()
+ *
+ */
 
 public class NYPizzaStore extends PizzaStore {
 
